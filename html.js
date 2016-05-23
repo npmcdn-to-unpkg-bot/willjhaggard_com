@@ -30,7 +30,7 @@ class Root extends Component {
           { cssLink }
             {/* TODO: How to bundle this script with the rest. Doesn't currently work in safari*/}
           <script src="//npmcdn.com/fontfaceobserver@1.7.1/fontfaceobserver.js"></script>
-          <script dangerouslySetInnerHTML={{ __html: config.js.font }} />
+          {/* <script dangerouslySetInnerHTML={{ __html: config.js.font }} /> */}
         </head>
         <body>
           {/* TODO: How to move this script into the <head>? Doing so gives an
