@@ -29,7 +29,7 @@ class Root extends Component {
           { favicons }
           { cssLink }
             {/* TODO: How to bundle this script with the rest. Doesn't currently work in safari*/}
-          <script src="//npmcdn.com/fontfaceobserver@1.7.1/fontfaceobserver.js"></script>
+          <script src="//unpkg.com/fontfaceobserver@1.7.1/fontfaceobserver.js"></script>
           {/* <script dangerouslySetInnerHTML={{ __html: config.js.font }} /> */}
         </head>
         <body>
